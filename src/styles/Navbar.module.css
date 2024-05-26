@@ -1,37 +1,37 @@
-/* src/styles/Navbar.module.css */
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #333;
-    padding: 10px 20px;
-    color: white;
-  }
-  
-  .brand {
-    font-size: 24px;
-    font-weight: bold;
-  }
-  
-  .links {
-    display: flex;
-    gap: 20px;
-  }
-  
-  .link {
-    color: white;
-    text-decoration: none;
-    padding: 5px 10px;
-    border-radius: 5px;
-  }
-  
-  .link:hover {
-    background-color: #555;
-  }
-  
-  .active {
-    background-color: white;
-    color: #333;
-    font-weight: bold;
-  }
-  
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #333;
+  padding: 10px 20px;
+  color: white;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.brand {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.links {
+  display: flex;
+  gap: 20px;
+}
+
+.link {
+  color: white;
+  text-decoration: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+}
+
+.link:hover {
+  background-color: #555;
+}
+
+.active {
+  background-color: white;
+  color: #333;
+  font-weight: bold;
+}
