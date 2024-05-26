@@ -1,3 +1,10 @@
+@keyframes jiggle {
+  0%, 100% { transform: rotate(0deg); }
+  25% { transform: rotate(-2deg); }
+  50% { transform: rotate(2deg); }
+  75% { transform: rotate(-2deg); }
+}
+
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -42,11 +49,4 @@
 
 .jiggle {
   animation: jiggle 0.5s ease;
-}
-
-@keyframes jiggle {
-  0%, 100% { transform: rotate(0deg); }
-  25% { transform: rotate(-5deg); }
-  50% { transform: rotate(5deg); }
-  75% { transform: rotate(-5deg); }
 }

@@ -6,20 +6,19 @@ import Artwork from './components/Artwork';
 import Design from './components/Design';
 import About from './components/About';
 import Navbar from './components/Navbar';
+import './styles/GlobalStyle.css'; 
 
 function App() {
   return (
     <Router>
       <Navbar />
-      <main>
-        <Routes>
-          <Route path="/" element={<Home />} />
-          <Route path="/design" element={<Design/>} />
-          <Route path="/theory" element={<Theory />} />
-          <Route path="/art" element={<Artwork />} />
-          <Route path="/about" element={<About />} />
-        </Routes>
-      </main>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/design" element={<Design/>} />
+        <Route path="/theory" element={<Theory />} />
+        <Route path="/artwork" element={<Artwork />} />
+        <Route path="/about" element={<About />} />
+      </Routes>
     </Router>
   );
 }
