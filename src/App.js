@@ -6,6 +6,7 @@ import Artwork from './components/Artwork';
 import Design from './components/Design';
 import About from './components/About';
 import Navbar from './components/Navbar';
+import PageTransition from './components/PageTransition';
 import './styles/GlobalStyle.css'; 
 
 function App() {
@@ -13,11 +14,11 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/design" element={<Design/>} />
-        <Route path="/theory" element={<Theory />} />
-        <Route path="/artwork" element={<Artwork />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<PageTransition><Home /></PageTransition>} />
+        <Route path="/design" element={<PageTransition><Design /></PageTransition>} />
+        <Route path="/theory" element={<PageTransition><Theory /></PageTransition>} />
+        <Route path="/artwork" element={<PageTransition><Artwork /></PageTransition>} />
+        <Route path="/about" element={<PageTransition><About /></PageTransition>} />
       </Routes>
     </Router>
   );
