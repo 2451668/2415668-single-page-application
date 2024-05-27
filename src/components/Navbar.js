@@ -27,7 +27,6 @@ const Navbar = () => {
         <NavLink to="/design" className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}>Design</NavLink>
         <NavLink to="/theory" className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}>Theory</NavLink>
         <NavLink to="/artwork" className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}>Art</NavLink>
-        <NavLink to="/about" className={({ isActive }) => isActive ? `${styles.link} ${styles.active}` : styles.link}>About</NavLink>
       </div>
     </nav>
   );

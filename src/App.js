@@ -4,9 +4,9 @@ import Home from './components/Home';
 import Theory from './components/Theory';
 import Artwork from './components/Artwork';
 import Design from './components/Design';
-import About from './components/About';
 import Navbar from './components/Navbar';
 import PageTransition from './components/PageTransition';
+import Footer from './components/Footer';
 import './styles/GlobalStyle.css'; 
 
 function App() {
@@ -18,8 +18,8 @@ function App() {
         <Route path="/design" element={<PageTransition><Design /></PageTransition>} />
         <Route path="/theory" element={<PageTransition><Theory /></PageTransition>} />
         <Route path="/artwork" element={<PageTransition><Artwork /></PageTransition>} />
-        <Route path="/about" element={<PageTransition><About /></PageTransition>} />
       </Routes>
+      <Footer />
     </Router>
   );
 }
