@@ -8,8 +8,11 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+  background-image: url('../resources/bg.webp'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;  color: #333;
   display: flex;
   justify-content: center;
   -ms-overflow-style: none ;
@@ -26,7 +29,7 @@ body::-webkit-scrollbar {
   width: 100%;
   max-width: 800px; 
   min-height: 100vh;
-  background-color: white;
+  background-color: rgb(255, 248, 240);
   min-height: 100vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   flex-direction: column;
