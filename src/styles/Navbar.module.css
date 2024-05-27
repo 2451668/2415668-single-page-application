@@ -7,7 +7,7 @@
 
 .navbar {
   display: flex;
-  position: -webkit-sticky; /* For Safari */
+  position: -webkit-sticky; 
   position: sticky;
   top: 0;
   justify-content: space-between;
@@ -17,6 +17,7 @@
   color: white;
   width: 100%;
   box-sizing: border-box;
+  z-index: 1000; 
 }
 
 .brand {
