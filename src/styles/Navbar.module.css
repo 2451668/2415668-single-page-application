@@ -7,6 +7,9 @@
 
 .navbar {
   display: flex;
+  position: -webkit-sticky; /* For Safari */
+  position: sticky;
+  top: 0;
   justify-content: space-between;
   align-items: center;
   background-color: #333;
