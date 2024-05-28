@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/2415668-single-page-application/static/css/main.67fa216f.css",
+    "main.js": "/2415668-single-page-application/static/js/main.39b6a7ff.js",
+    "static/media/tree2.webp": "/2415668-single-page-application/static/media/tree2.6120f250cc376c7291ba.webp",
+    "static/media/tree1.webp": "/2415668-single-page-application/static/media/tree1.f0a3d257cd53af93d59c.webp",
+    "static/media/grain.webp": "/2415668-single-page-application/static/media/grain.004bf175629a43cfae7f.webp",
+    "static/media/bg.webp": "/2415668-single-page-application/static/media/bg.d342f6b2b1edd57cb64c.webp",
+    "static/media/wireframe1.png": "/2415668-single-page-application/static/media/wireframe1.d06af78213f1fc0eb873.png",
+    "static/media/wireframe2.png": "/2415668-single-page-application/static/media/wireframe2.d06af78213f1fc0eb873.png",
+    "index.html": "/2415668-single-page-application/index.html",
+    "main.67fa216f.css.map": "/2415668-single-page-application/static/css/main.67fa216f.css.map",
+    "main.39b6a7ff.js.map": "/2415668-single-page-application/static/js/main.39b6a7ff.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.67fa216f.css",
+    "static/js/main.39b6a7ff.js"
+  ]
+}
