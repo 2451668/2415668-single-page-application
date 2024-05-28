@@ -7,13 +7,19 @@
 
 .navbar {
   display: flex;
+  position: -webkit-sticky; 
+  position: sticky;
+  top: 0;
   justify-content: space-between;
   align-items: center;
-  background-color: #333;
   padding: 10px 20px;
-  color: white;
+  color: rgb(236, 255, 152);
   width: 100%;
   box-sizing: border-box;
+  z-index: 1000;
+  background-image: url('../resources/grain.webp');
+
+
 }
 
 .brand {
@@ -28,7 +34,7 @@
 }
 
 .link {
-  color: white;
+  color: rgb(255, 233, 174);
   text-decoration: none;
   padding: 5px 10px;
   border-radius: 5px;
@@ -36,12 +42,12 @@
 }
 
 .link:hover {
-  background-color: #555;
+  background-color: #2d3311;
   transform: scale(1.05);
 }
 
 .active {
-  background-color: white;
+  background-color: rgb(255, 225, 161);
   color: #333;
   font-weight: bold;
   transition: background-color 0.2s;

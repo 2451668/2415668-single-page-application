@@ -1,24 +1,29 @@
 .page-transition {
-    position: absolute;
-    width: 100%;
-  }
-  
-  .fade-enter {
-    opacity: 0;
-    transform: translateY(10px);
-  }
-  .fade-enter-active {
-    opacity: 1;
-    transform: translateY(0);
-    transition: opacity 300ms, transform 300ms;
-  }
-  .fade-exit {
-    opacity: 1;
-    transform: translateY(0);
-  }
-  .fade-exit-active {
-    opacity: 0;
-    transform: translateY(10px);
-    transition: opacity 300ms, transform 300ms;
-  }
-  
+  position: relative;
+  width: 100%; 
+  max-width: 800px; 
+  min-height: 100vh;
+  overflow-x: hidden; 
+}
+
+.fade-enter {
+  opacity: 0;
+  transform: translateY(10px);
+}
+
+.fade-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 300ms, transform 300ms;
+}
+
+.fade-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.fade-exit-active {
+  opacity: 0;
+  transform: translateY(10px);
+  transition: opacity 300ms, transform 300ms;
+}

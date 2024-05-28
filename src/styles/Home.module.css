@@ -2,3 +2,42 @@
     padding: 80px;
   }
  
+ 
+h1 {
+  color: #2e7d32;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+p {
+  line-height: 2;
+  margin-bottom: 20px;
+  text-align: justify;
+  
+}
+
+.image {
+  width: 100%;
+  height: auto;
+  margin-bottom: 20px;
+  border-radius: 8px;
+}
+
+.section {
+  margin-bottom: 40px;
+}
+
+h2 {
+  color: #2e7d32;
+  margin-bottom: 10px;
+}
+
+ul {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 30px;
+  
+}

@@ -8,18 +8,31 @@
 
 body {
   font-family: 'Poppins', sans-serif;
-  background-color: #f0f0f0;
-  color: #333;
+  background-image: url('../resources/bg.webp'); 
+  background-size: cover; 
+  background-repeat: no-repeat; 
+  background-attachment: fixed; 
+  background-position: center;  color: #333;
   display: flex;
   justify-content: center;
+  -ms-overflow-style: none ;
+  scrollbar-width: none ;
+}
+
+html::-webkit-scrollbar,
+body::-webkit-scrollbar {
+  display: none !important; 
 }
 
 #root {
+  display: flex;
   width: 100%;
   max-width: 800px; 
-  background-color: white;
+  min-height: 100vh;
+  background-color: rgb(255, 248, 240);
   min-height: 100vh;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  flex-direction: column;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -27,11 +40,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 p {
-  line-height: 1.6;
+  line-height: 2;
+  max-width: 100%;
 }
 
 img {
-  max-width: 100%;
+  max-width: 650px;
   height: auto;
   border-radius: 8px;
 }
@@ -45,6 +59,9 @@ img {
   color: white;
   width: 100%;
   box-sizing: border-box;
+  position: sticky; 
+  top: 0;
+  z-index: 1000; 
 }
 
 .brand {
