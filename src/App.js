@@ -12,7 +12,7 @@ import PageTransition from './components/PageTransition';
 import Footer from './components/Footer';
 
 // global styles for the app
-import './styles/GlobalStyle.css'; 
+import './styles/GlobalStyle.css';
 
 function App() {
   return (
@@ -51,13 +51,13 @@ export default App;
 // https://v5.reactrouter.com/web/guides/quick-start
 // https://www.freecodecamp.org/news/react-router-tutorial/
 // https://www.telerik.com/blogs/react-basics-how-to-use-react-router-v6
+// https://www.w3schools.com/react/react_events.asp
 // https://react.dev/reference/react/useContext
 // https://react.dev/reference/react/createContext
 // https://react.dev/reference/react/useState
 // https://react.dev/learn
-// https://www.openai.com
 
-// csss and styling
+// styling
 
 // https://www.w3schools.com/react/react_css.asp
 // https://reactjs.org/docs/animation.html
@@ -67,6 +67,4 @@ export default App;
 // https://www.w3schools.com/howto/howto_css_shake_image.asp
 // https://codepen.io/anon/pen/jWmzyZ
 
-// handling events
 
-// https://www.w3schools.com/react/react_events.asp

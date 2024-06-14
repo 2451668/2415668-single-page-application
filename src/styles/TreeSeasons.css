@@ -1,0 +1,66 @@
+.tree-seasons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .image-container {
+    position: relative;
+    width: auto;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .tree-image {
+    position: absolute;
+    width: auto;
+    height: 100%;
+    transition: opacity 1s ease-in-out;
+    opacity: 0;
+  }
+  
+  .tree-image.visible {
+    opacity: 1;
+  }
+  
+  .tree-image.hidden {
+    opacity: 0;
+  }
+  
+  .button-container {
+    margin: 20px;
+  }
+  
+  button {
+    padding: 10px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-size: 24px;
+    color: white;
+  }
+  
+  button.summer {
+    background-color: #fdee97; 
+  }
+  
+  button.winter {
+    background-color: #a5c2cc; 
+  }
+  
+  button.spring {
+    background-color: #ce97d3; 
+  }
+  
+  button.autumn {
+    background-color: #a35858; 
+  }
+  
+  button.active {
+    opacity: 0.8;
+  }
+  

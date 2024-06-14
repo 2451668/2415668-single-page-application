@@ -1,11 +1,15 @@
 import React from 'react';
+import TreeSeasons from './TreeSeasons';
 import styles from '../styles/Artwork.module.css';
 
 const Artwork = () => {
   return (
     <div className={styles.container}>
       <h1>🌳 Proposed Internet Artwork</h1>
-      
+
+      <br></br>
+      <TreeSeasons />
+      <br></br>
       <section className={styles.section}>
         <h2>Concept</h2>
         <p>For my internet artwork, I'm proposing an interactive/animated tree that visually represents various tree species in South Africa. The opacity of the leaves will correspond to the population ratios of the species, with the greenest leaves representing the most common species and the palest leaves indicating the rarest species. This is an ambitious undertaking for sure, and is definitely subject to some changes when I do the real development, but I believe in this premise for the general concept.</p>
