@@ -11,10 +11,10 @@ import autumnImage from '../images/tree-autumn.webp';
 
 // defined seasons with corresponding images, icons, class names, and tooltips; essentially an identity for each phase of the art
 const seasons = {
-  Summer: { image: summerImage, icon: faSun, className: 'summer', tooltip: 'The Baobab tree in summer is vibrant and full of life.' },
-  Winter: { image: winterImage, icon: faSnowflake, className: 'winter', tooltip: 'In winter, the Baobab tree stands stark and serene.' },
-  Spring: { image: springImage, icon: faLeaf, className: 'spring', tooltip: 'Spring brings fresh blooms to the Baobab tree.' },
-  Autumn: { image: autumnImage, icon: faTree, className: 'autumn', tooltip: 'Autumn shows the Baobab tree in warm, earthy tones.' },
+  Summer: { image: summerImage, icon: faSun, className: 'summer', tooltip: 'Baobabs store thousands of litres of water in their trunks to survive dry seasons.' },
+  Winter: { image: winterImage, icon: faSnowflake, className: 'winter', tooltip: 'In winter, Baobabs shed leaves to conserve water, revealing their bare branches' },
+  Spring: { image: springImage, icon: faLeaf, className: 'spring', tooltip: 'Spring brings fresh leaves and large white flowers to the Baobab tree.' },
+  Autumn: { image: autumnImage, icon: faTree, className: 'autumn', tooltip: 'In autumn, Baobab leaves fall, preparing for the dry season, showcasing its massive trunk' },
 };
 
 const TreeSeasons = () => {
