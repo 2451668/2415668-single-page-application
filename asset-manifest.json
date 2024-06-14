@@ -1,19 +1,23 @@
 {
   "files": {
-    "main.css": "/2415668-single-page-application/static/css/main.67fa216f.css",
-    "main.js": "/2415668-single-page-application/static/js/main.39b6a7ff.js",
+    "main.css": "/2415668-single-page-application/static/css/main.e8955062.css",
+    "main.js": "/2415668-single-page-application/static/js/main.a3aadc3c.js",
+    "static/media/wireframe1.png": "/2415668-single-page-application/static/media/wireframe1.186e517cbd0455999b06.png",
+    "static/media/wireframe2.png": "/2415668-single-page-application/static/media/wireframe2.e6bb98a5877799bd482b.png",
+    "static/media/tree-summer.webp": "/2415668-single-page-application/static/media/tree-summer.5c8393490f2291e9beb8.webp",
+    "static/media/tree-spring.webp": "/2415668-single-page-application/static/media/tree-spring.937bbf2c8a45218b9e85.webp",
+    "static/media/tree-autumn.webp": "/2415668-single-page-application/static/media/tree-autumn.c793b05355956c02e281.webp",
+    "static/media/tree-winter.webp": "/2415668-single-page-application/static/media/tree-winter.ea211d9f6f24f2a954f0.webp",
     "static/media/tree2.webp": "/2415668-single-page-application/static/media/tree2.6120f250cc376c7291ba.webp",
     "static/media/tree1.webp": "/2415668-single-page-application/static/media/tree1.f0a3d257cd53af93d59c.webp",
     "static/media/grain.webp": "/2415668-single-page-application/static/media/grain.004bf175629a43cfae7f.webp",
     "static/media/bg.webp": "/2415668-single-page-application/static/media/bg.d342f6b2b1edd57cb64c.webp",
-    "static/media/wireframe1.png": "/2415668-single-page-application/static/media/wireframe1.d06af78213f1fc0eb873.png",
-    "static/media/wireframe2.png": "/2415668-single-page-application/static/media/wireframe2.d06af78213f1fc0eb873.png",
     "index.html": "/2415668-single-page-application/index.html",
-    "main.67fa216f.css.map": "/2415668-single-page-application/static/css/main.67fa216f.css.map",
-    "main.39b6a7ff.js.map": "/2415668-single-page-application/static/js/main.39b6a7ff.js.map"
+    "main.e8955062.css.map": "/2415668-single-page-application/static/css/main.e8955062.css.map",
+    "main.a3aadc3c.js.map": "/2415668-single-page-application/static/js/main.a3aadc3c.js.map"
   },
   "entrypoints": [
-    "static/css/main.67fa216f.css",
-    "static/js/main.39b6a7ff.js"
+    "static/css/main.e8955062.css",
+    "static/js/main.a3aadc3c.js"
   ]
 }
