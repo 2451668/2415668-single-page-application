@@ -8,7 +8,6 @@ const Theory = () => {
       <br />
       <h3>The main theory content for this semester was the exploration of Net Art and developing an understanding of how it is made, and how we can use what we learned in developing our own bit of net art. Below is my submission for our second semester assignment - the net art essay.</h3>
       <br />
-      <h2>Net Art</h2>
       <br />
       <p>Much of our theoretical coursework this semester focused on understanding net or web 
       art—its definition, origins, distinctions from traditional art, and significance as a 
@@ -139,7 +138,6 @@ const Theory = () => {
       embodies the transformative nature of net art, constantly evolving and reshaping itself in 
       response to digital stimuli (Rush, 2005).</p>
       <br />
-      <h3>References</h3>
       <br />
       <h3>Carrier, D., 2018. The Work of Art in the Age of the Internet.</h3>
       <br />

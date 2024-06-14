@@ -7,7 +7,7 @@ const Footer = () => {
       <div className={styles.content}>
         <div className={styles.about}>
           <h3>About Me</h3>
-          <p>I am a fourth year undergraduate enrolled in the Digital Art & Game Design programme at the University of Witwatersrand in central Johannesburg. This website serves as precursor for my final exam submission for Interactive Media : WSOA4175A. </p>
+          <p>I am a fourth year undergraduate enrolled in the Digital Art & Game Design programme at the University of Witwatersrand in central Johannesburg. This website serves as my final exam submission for Interactive Media : WSOA4175A. </p>
         </div>
         <div className={styles.contact}>
           <h3>Contact</h3>
@@ -15,7 +15,7 @@ const Footer = () => {
           <p>Phone: (+27) 12-345-6789</p>
         </div>
         <div className={styles.copyright}>
-          <p>© 2024 Thabang Maleka. All rights reserved or whatever I guess.</p>
+          <p>© 2024 Thabang Maleka</p>
         </div>
       </div>
     </footer>
