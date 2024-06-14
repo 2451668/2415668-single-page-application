@@ -9,31 +9,39 @@ import winterImage from '../images/tree-winter.webp';
 import springImage from '../images/tree-spring.webp';
 import autumnImage from '../images/tree-autumn.webp';
 
-// defined seasons with corresponding images, icons, and class names; essentially an identity for each phase of the art
+// defined seasons with corresponding images, icons, class names, and tooltips; essentially an identity for each phase of the art
 const seasons = {
-  Summer: { image: summerImage, icon: faSun, className: 'summer' },
-  Winter: { image: winterImage, icon: faSnowflake, className: 'winter' },
-  Spring: { image: springImage, icon: faLeaf, className: 'spring' },
-  Autumn: { image: autumnImage, icon: faTree, className: 'autumn' },
+  Summer: { image: summerImage, icon: faSun, className: 'summer', tooltip: 'The Baobab tree in summer is vibrant and full of life.' },
+  Winter: { image: winterImage, icon: faSnowflake, className: 'winter', tooltip: 'In winter, the Baobab tree stands stark and serene.' },
+  Spring: { image: springImage, icon: faLeaf, className: 'spring', tooltip: 'Spring brings fresh blooms to the Baobab tree.' },
+  Autumn: { image: autumnImage, icon: faTree, className: 'autumn', tooltip: 'Autumn shows the Baobab tree in warm, earthy tones.' },
 };
 
 const TreeSeasons = () => {
   // state keeps track of current season in order to show the relevant phase of art, as well as matching button graphics
   const [currentSeason, setCurrentSeason] = useState('Summer');
+  const [showTooltip, setShowTooltip] = useState(false);
 
   return (
     <div className="tree-seasons">
       {/* container for the images themselves */}
-      <div className="image-container">
+      <div 
+        className="image-container"
+        onMouseEnter={() => setShowTooltip(true)}
+        onMouseLeave={() => setShowTooltip(false)}
+      >
         {/* maps through seasons to render each phase */}
         {Object.keys(seasons).map(season => (
           <img
-            key={season} // assign a key for each image
+            key={season} // assigns a key for each image
             src={seasons[season].image} // images themselves
-            alt={`${season} tree`} // alt text, for accessibility
+            alt={`${season} tree`} // alt text; for accessibility
             className={`tree-image ${currentSeason === season ? 'visible' : 'hidden'}`} // to conditionally apply classes based on current season
           />
         ))}
+        {showTooltip && (
+          <div className="tooltip">{seasons[currentSeason].tooltip}</div>
+        )}
       </div>
       {/* likewise, a container to house the buttons */}
       <div className="button-container">
@@ -41,7 +49,7 @@ const TreeSeasons = () => {
         {Object.keys(seasons).map(season => (
           <button
             key={season}
-            onClick={() => setCurrentSeason(season)} // to set the appropriate phase ounce clicked
+            onClick={() => setCurrentSeason(season)} // to set the appropriate phase once clicked
             className={`${seasons[season].className} ${currentSeason === season ? 'active' : ''}`} // again applying classes as per current phase
           >
             {/* used this library for the renders for the actual icons */}
@@ -73,7 +81,9 @@ export default TreeSeasons;
 // https://react.dev/reference/react/createContext
 // https://react.dev/reference/react/useState
 // https://www.w3schools.com/react/react_usestate.asp
-// https://www.w3schools.com/react/react_usecontext.asp
+// https://www.w3schools.com/react/react_usecontext.
+// https://stackoverflow.com/questions/7117073/add-a-tooltip-to-a-div
+// https://www.geeksforgeeks.org/how-to-use-tooltip-component-in-reactjs/
 
 // Styling
 
@@ -82,5 +92,4 @@ export default TreeSeasons;
 // https://www.w3schools.com/css/css3_transitions.asp
 // https://developer.mozilla.org/en-US/docs/Web/CSS/CSS_transitions/Using_CSS_transitions
 // https://www.joshwcomeau.com/animation/css-transitions/
-// https://stackoverflow.com/questions/11660710/css-transition-fade-in
-// https://www.youtube.com/watch?v=SgmNxE9lWcY&t=75s&pp=ygUSdHJhbnNpdGlvbnMgaW4gY3Nz
+// https://www.w3schools.com/howto/howto_css_tooltip.asp
